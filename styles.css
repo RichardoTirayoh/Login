@@ -1,0 +1,95 @@
+#Container{
+    background-color: #132C33;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+       
+}
+
+#Container div{
+    position: absolute;
+    border: none;
+    inset: 50% auto auto 50%;
+    overflow: auto;
+    border-radius: 8px;
+    padding: 16px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 420px;
+    width: 365px;
+}
+
+.styleKembali{
+    color: #1A8187;
+    font-family: 'Poppins';
+    font-size: 14px;
+    
+}
+.styleLogin{
+    color: #1A8187;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    line-height:50px;
+}
+
+#Email{
+    position: relative;    
+    width: 100%;
+    height:15%;
+    background-color: #d8e3e775;
+    border-color: rgba(128, 128, 128, 0.322);
+    font-family: 'Poppins';
+}
+#Email::-webkit-input-placeholder{
+    color: #1A8187;
+}
+
+#Password{
+    position: relative;
+    margin-top: 15px;
+    width: 100%;
+    height: 15%;
+    background-color:  #d8e3e775;
+    border-color: rgba(128, 128, 128, 0.322);
+    font-family: 'Poppins';
+}
+#Password::-webkit-input-placeholder{
+    color: #1A8187;
+}
+#Masuk{
+    position: relative;
+    margin-top: 30px;
+    left: 15px;
+    width: 92%;
+    height: 10%;
+    background-color: #126E82;
+    border-radius: 10px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.DaftarAcc{
+    position: relative;
+    top: auto;
+    margin-left: 18%;
+    font-size: small;
+}
+
+.LupaPass{
+    position: relative;
+    top: auto;
+    margin-left: 20%;
+    font-size: small;
+}
+
+.Google{
+    background-color: #132C33;
+    border:none;
+}
+.Google{
+    position: relative;
+    background-color:#132C33;
+    color: white;
+    font-weight: bold;
+}
