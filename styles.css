@@ -3,6 +3,7 @@
     height: 100vh;
     width: 100%;
     display: flex;
+    z-index: 999;
        
 }
 
@@ -82,14 +83,24 @@
     margin-left: 20%;
     font-size: small;
 }
-
-.Google{
-    background-color: #132C33;
-    border:none;
-}
 .Google{
     position: relative;
-    background-color:#132C33;
-    color: white;
-    font-weight: bold;
+    margin-left: 14%;
+    font-family:'Poppins';   
+    color: #132C33; 
+}
+.Google img{
+    width: 20px;
+    height: 20px;
+}
+
+.Facebook{
+    position: relative;
+    margin-left: 18%;
+    font-family:'Poppins';   
+    color: #132C33; 
+}
+.Facebook img{
+    width: 20px;
+    height: 20px;
 }
